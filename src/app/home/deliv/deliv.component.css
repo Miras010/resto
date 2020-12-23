@@ -12,13 +12,14 @@
                     black),
     url('/assets/img/deliv-back.jpg');
     margin-top: 80px;
+    background-attachment: fixed;
 }
 .deliv{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 500px;
+  height: 600px;
   padding-top: 100px;
 }
 .deliv__h1{

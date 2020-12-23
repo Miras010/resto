@@ -25,6 +25,7 @@ import { FoodsComponent } from './foods/foods.component';
 import { ImagesComponent } from './images/images.component';
 import { HoverDirective } from './hover.directive';
 import { PipesComponent } from './feedback/pipes/pipes.component';
+import { BreakComponent } from './foods/break/break.component';
 
 const routes = [
   {path: '', component: HomeComponent},
@@ -53,7 +54,8 @@ const routes = [
     FoodsComponent,
     ImagesComponent,
     HoverDirective,
-    PipesComponent
+    PipesComponent,
+    BreakComponent
   ],
   imports: [
     BrowserModule,

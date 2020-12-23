@@ -1,0 +1,92 @@
+/* #ffa742 */
+
+.deliv__sec{
+    /* background-image: url('/assets/img/deliv-back.jpg'); */
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:
+    linear-gradient(black,
+                    transparent 30%,
+                    transparent 1%,
+                    black),
+    url('/assets/img/deliv-back.jpg');
+    margin-top: 80px;
+}
+.deliv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  padding-top: 100px;
+}
+.deliv__h1{
+  font-weight: bold !important;
+  color: #ffa742;
+  font-size: 40px;
+}
+.deliv__span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 230px;
+}
+.deliv__spans{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+}
+.deliv__orders{
+  border-radius: 100%;
+  border: 3px solid #ffcd70;
+  height: 160px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffa742;
+}
+.deliv__orders p{
+  color: white;
+}
+.deliv .number{
+  font-size: 70px;
+  margin-top: -10px;
+  font-weight: bold !important;
+  color: #fa3e3e;
+}
+.orders__text{
+  color: #d9d9d9;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.deliv__text{
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.deliv__button{
+  background-color: white;
+  padding: 15px 15px;
+  border: 1px solid #ffa742;
+  width: 200px;
+  background-color: #ffa742;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+}
+.deliv__button:hover{
+  border: 1px solid black;
+  color: #ffa742;
+  background-color: black;
+  transition: 0.3s;
+
+}

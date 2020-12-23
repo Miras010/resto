@@ -1,0 +1,41 @@
+.lunch__sec{
+  background-image: url('https://i.pinimg.com/originals/a3/e0/6c/a3e06c8f7b389ecacdbcd59f2b29fc17.jpg');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-attachment: fixed;
+}
+.lunch{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 900px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.lunch__h1{
+  font-size: 70px;
+  color: #ffa742;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.lunch_p{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.lunch__button{
+  width: 200px;
+  padding: 10px 20px;
+  background-color: inherit;
+  border: 1px solid white;
+  color: #ffa742;
+  margin-top: 20px;
+}
+.lunch__button:hover{
+  border: 1px solid #ffa742;
+  background-color: black;
+  transition: 0.3s;
+}

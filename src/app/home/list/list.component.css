@@ -1,0 +1,35 @@
+.list__sec{
+  background-color: black;
+  color: white;
+  padding: 80px 0;
+}
+.list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.list__h1{
+  color: #ffa742;
+  font-size: 32px;
+}
+.list__menus{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-top: 50px;
+}
+.list__food{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.list__menus h2{
+  font-size: 25px;
+  color: #ffa742;
+  padding-bottom: 30px;
+}
+.list__food p{
+  font-size: 18px;
+  margin: 5px 0;
+  font-style: italic;
+}

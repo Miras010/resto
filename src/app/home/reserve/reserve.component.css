@@ -1,0 +1,54 @@
+.reserve__sec{
+    background-color: white;
+}
+.reserve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    margin: 80px;
+}
+.reserve__h1{
+    color: #ffa742;
+    font-size: 35px;
+}
+.reserve__forms{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.reserve__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+.reserve__button{
+    background-color: inherit;
+    border: 1px solid #ffa742;
+    color: #ffa742;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+.reserve__button:hover{
+    background-color: #ffa742;
+    color: white;
+    transition: 0.4s;
+}
+.reserve input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black;
+    width: 250px;
+}
+.reserve input:focus {
+    border-color: #ffa742;
+}
+hr{
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    background-color: #ffa742;
+    border: none;
+}

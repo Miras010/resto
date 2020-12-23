@@ -1,0 +1,47 @@
+<div class="feedback__sec">
+    <div class="info">
+      <h1>ОБРАТНАЯ СВЯЗЬ</h1>
+    </div>
+</div>
+<div class="inputs__sec">
+    <div class="inputs">
+        <div class="inputs__info">
+          <h2>Наш адрес</h2>
+          <strong><p>Алматы</p></strong>
+          <p>проспект Достык, 123/8</p>
+
+          <p>Ресторан <br>
+          Городской: +7(727)387-02-56 <br>
+          Мобильный: +7(701)969-66-96
+          </p>
+
+          <p>Доставка <br>
+          Городской: +7(727)317-15-65 <br>
+          Мобильный: +7(705)139-25-54 <br>
+          Email: info@u-afanasicha.kz</p>
+        </div>
+
+        <div class="input_div">
+            <div class="inputs_div">
+                <h2 class="name" [hidden]="!name">Мы свяжемся с Вами ближайшее время, {{name}}</h2>
+                <h2>Ваше имя</h2>
+                <input [(ngModel)]="name" type="text">
+            </div>
+            <form #userForm="ngForm" (ngSubmit)="onFormSubmit(userForm)" class="inputs_div">
+
+              <h2 style="margin-bottom: 50px;">Ваш номер телефона:</h2>
+              <input style="height: 50px;" name="mobileNumber" [ngModel]="user.mobileNumber" [pattern]="mobNumberPattern" #mobNumber="ngModel">
+              <div *ngIf="mobNumber.errors && userForm.submitted && !isValidFormSubmitted" [ngClass] = "'error'">
+                  <div *ngIf="mobNumber.errors.pattern">
+                    Mobile number not valid.
+                  </div>
+              </div>
+              <button (click)="save()">Связаться</button>
+            </form>
+        </div>
+
+
+
+    </div>
+</div>
+<hr>

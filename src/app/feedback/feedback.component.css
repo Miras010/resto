@@ -1,0 +1,107 @@
+.feedback__sec{
+  padding-top: 70px;
+  background-image:
+  linear-gradient(black,
+                  transparent 1%,
+                  transparent 1%,
+                  black),
+  url('/assets/img/images-back.jpg');
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback__sec h1{
+  font-size: 45px;
+  color: #ffa742;
+  top: 100px;
+}
+.inputs__sec{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 80px 0;
+}
+.inputs{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+}
+.inputs__info h2{
+  text-transform: uppercase;
+  color: #ffa742;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.inputs__info p{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.inputs_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.input_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputs_div .name{
+  margin-bottom: 30px;
+}
+.inputs_div input{
+  background-color: inherit;
+  border-width: 0 0 1px;
+  border-color: #ffa742;
+  width: 400px;
+  outline: 0;
+  margin-bottom: 20px;
+  color: white;
+
+  font-size: 18px;
+}
+.inputs_div input:last-child{
+  height: 100px;
+}
+.inputs_div input:focus{
+  border-color: #ffa742;
+}
+.name{
+  color: #ffa742;
+  font-size: 18px;
+}
+hr{
+  margin: 0;
+  padding: 0;
+  height: 2px;
+  border: none;
+  background-color: #ffa742;
+}
+.inputs_div button{
+  background-color: white;
+  padding: 15px 15px;
+  border: 1px solid #ffa742;
+  width: 200px;
+  background-color: #ffa742;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+}
+
+.inputs_div button:hover{
+  border: 1px solid black;
+  color: #ffa742;
+  background-color: black;
+  transition: 0.3s;
+
+}

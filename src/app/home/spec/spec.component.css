@@ -1,0 +1,27 @@
+.spec__sec{
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+
+}
+.spec{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.spec h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #ffa742;
+  font-weight: bold !important;
+}
+.spec p{
+  font-size: 20px;
+}
+.spec img{
+  height: 300px;
+}
+.spec_info{
+  width: 500px;
+  margin-left: 50px;
+}

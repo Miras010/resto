@@ -1,0 +1,37 @@
+.about{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://www.fg-a.com/wallpapers/white-marble-1-2018.jpg');
+}
+.about__info{
+  background-color: inherit;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__sec{
+  background-color: inherit;
+  width: 660px;
+  height: 360px;
+  border: 1.3px solid goldenrod;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about__sec h1{
+  color: #ffa742;
+  font-size: 40px;
+}
+.about__sec p{
+  color: #8f8f8f;
+  width: 600px;
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}

@@ -23,9 +23,9 @@
 
         <div class="input_div">
             <div class="inputs_div">
-                <h2 class="name" [hidden]="!name">Мы свяжемся с Вами ближайшее время, {{name}}</h2>
+                <app-pipes [name]="name"></app-pipes>
                 <h2>Ваше имя</h2>
-                <input [(ngModel)]="name" type="text">
+                <input type="text" [(ngModel)]="name" />
             </div>
             <form #userForm="ngForm" (ngSubmit)="onFormSubmit(userForm)" class="inputs_div">
 

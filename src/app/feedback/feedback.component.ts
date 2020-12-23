@@ -10,6 +10,9 @@ import {Observable} from "rxjs";
 })
 
 export class FeedbackComponent implements ComponentCanDeactivate  {
+
+  name:string="";
+
   saved: boolean = false;
   save(){
       this.saved = true;
@@ -25,7 +28,7 @@ export class FeedbackComponent implements ComponentCanDeactivate  {
       }
   }
 
-  name : string = '';
+
 
   ngOnInit() {
 

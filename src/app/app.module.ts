@@ -23,6 +23,8 @@ import { SpecComponent } from './home/spec/spec.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { FoodsComponent } from './foods/foods.component';
 import { ImagesComponent } from './images/images.component';
+import { HoverDirective } from './hover.directive';
+import { PipesComponent } from './feedback/pipes/pipes.component';
 
 const routes = [
   {path: '', component: HomeComponent},
@@ -49,7 +51,9 @@ const routes = [
     SpecComponent,
     FeedbackComponent,
     FoodsComponent,
-    ImagesComponent
+    ImagesComponent,
+    HoverDirective,
+    PipesComponent
   ],
   imports: [
     BrowserModule,

@@ -12,4 +12,6 @@ export class ListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  money: number = 5000;
+
 }
